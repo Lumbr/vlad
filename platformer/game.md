@@ -8,9 +8,9 @@ layout: default
 <link rel="shortcut icon" href="TemplateData/favicon.ico">
 <link rel="stylesheet" href="TemplateData/style.css">
 <script src="TemplateData/UnityProgress.js"></script>
-<script src="Build/UnityLoader.js"></script>
+<script src="TemplateData/Build/UnityLoader.js"></script>
 <script>
-  var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Webgl.json", {onProgress: UnityProgress});
+  var unityInstance = UnityLoader.instantiate("unityContainer", "TemplateData/Build/Webgl.json", {onProgress: UnityProgress});
 </script>
 <h1>Game grumps</h1>
 
